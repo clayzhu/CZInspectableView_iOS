@@ -16,6 +16,7 @@
 		1898A4F91E83CF9500A4AFA3 /* UIView+CZInspectableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898A4F71E83CF9500A4AFA3 /* UIView+CZInspectableView.m */; };
 		1898A5021E83D1C700A4AFA3 /* CZInspectableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898A5011E83D1C700A4AFA3 /* CZInspectableTextField.m */; };
 		1898A5051E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898A5041E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.m */; };
+		1898A5081E83D59A00A4AFA3 /* UIButton+CZInspectableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898A5071E83D59A00A4AFA3 /* UIButton+CZInspectableButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		1898A5011E83D1C700A4AFA3 /* CZInspectableTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZInspectableTextField.m; sourceTree = "<group>"; };
 		1898A5031E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CZInspectableTextField.h"; sourceTree = "<group>"; };
 		1898A5041E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CZInspectableTextField.m"; sourceTree = "<group>"; };
+		1898A5061E83D59A00A4AFA3 /* UIButton+CZInspectableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CZInspectableButton.h"; sourceTree = "<group>"; };
+		1898A5071E83D59A00A4AFA3 /* UIButton+CZInspectableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CZInspectableButton.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1898A4F71E83CF9500A4AFA3 /* UIView+CZInspectableView.m */,
 				1898A5031E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.h */,
 				1898A5041E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.m */,
+				1898A5061E83D59A00A4AFA3 /* UIButton+CZInspectableButton.h */,
+				1898A5071E83D59A00A4AFA3 /* UIButton+CZInspectableButton.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1898A4E21E83C79C00A4AFA3 /* ViewController.m in Sources */,
+				1898A5081E83D59A00A4AFA3 /* UIButton+CZInspectableButton.m in Sources */,
 				1898A5051E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.m in Sources */,
 				1898A4DF1E83C79C00A4AFA3 /* AppDelegate.m in Sources */,
 				1898A4DC1E83C79C00A4AFA3 /* main.m in Sources */,
