@@ -36,12 +36,12 @@
 	self.layer.borderColor = borderColor.CGColor;
 }
 
-- (CGFloat)defineValue {
-	return [objc_getAssociatedObject(self, @selector(defineValue)) floatValue];
-}
+//- (CGFloat)defineValue {
+//	return [objc_getAssociatedObject(self, @selector(defineValue)) floatValue];
+//}
 
-- (void)setDefineValue:(CGFloat)defineValue {
-	objc_setAssociatedObject(self, @selector(defineValue), @(defineValue), OBJC_ASSOCIATION_ASSIGN);
-}
+//- (void)setDefineValue:(CGFloat)defineValue {
+//	objc_setAssociatedObject(self, @selector(defineValue), @(defineValue), OBJC_ASSOCIATION_ASSIGN);
+//}
 
 @end

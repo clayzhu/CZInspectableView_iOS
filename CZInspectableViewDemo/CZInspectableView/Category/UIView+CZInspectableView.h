@@ -15,7 +15,7 @@ IB_DESIGNABLE
  使用 IB_DESIGNABLE 可以在 IB 中直接看到修改上述属性后的渲染效果。
  使用 UIView 的 Category，并且继承一个 UIView、UILabel 等的子类，可以自动使用这些效果。
  不继承的话，修改有效，但 IB 上看不到实时渲染。
- 需要更多属性时，可以扩展。
+ 需要更多属性时，可以扩展自定义属性，格式参照下面的 defineValue。
  */
 @interface UIView (CZInspectableView)
 
@@ -26,7 +26,7 @@ IB_DESIGNABLE
 /** 边框颜色 */
 @property (strong, nonatomic) IBInspectable UIColor *borderColor;
 
-/** 自定义值 */
-@property (assign, nonatomic) IBInspectable CGFloat defineValue;
+/** 自定义属性 */
+//@property (assign, nonatomic) IBInspectable CGFloat defineValue;
 
 @end
