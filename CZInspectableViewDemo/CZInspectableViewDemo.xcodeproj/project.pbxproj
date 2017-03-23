@@ -13,7 +13,7 @@
 		1898A4E51E83C79C00A4AFA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1898A4E31E83C79C00A4AFA3 /* Main.storyboard */; };
 		1898A4E71E83C79C00A4AFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1898A4E61E83C79C00A4AFA3 /* Assets.xcassets */; };
 		1898A4EA1E83C79C00A4AFA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1898A4E81E83C79C00A4AFA3 /* LaunchScreen.storyboard */; };
-		1898A4F41E83C95700A4AFA3 /* UIView+CZInspectableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898A4F31E83C95700A4AFA3 /* UIView+CZInspectableView.m */; };
+		1898A4F91E83CF9500A4AFA3 /* UIView+CZInspectableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898A4F71E83CF9500A4AFA3 /* UIView+CZInspectableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		1898A4E61E83C79C00A4AFA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1898A4E91E83C79C00A4AFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1898A4EB1E83C79C00A4AFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1898A4F21E83C95700A4AFA3 /* UIView+CZInspectableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZInspectableView.h"; sourceTree = "<group>"; };
-		1898A4F31E83C95700A4AFA3 /* UIView+CZInspectableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZInspectableView.m"; sourceTree = "<group>"; };
+		1898A4F61E83CF9500A4AFA3 /* UIView+CZInspectableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZInspectableView.h"; sourceTree = "<group>"; };
+		1898A4F71E83CF9500A4AFA3 /* UIView+CZInspectableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZInspectableView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +86,26 @@
 		1898A4F11E83C93500A4AFA3 /* CZInspectableView */ = {
 			isa = PBXGroup;
 			children = (
-				1898A4F21E83C95700A4AFA3 /* UIView+CZInspectableView.h */,
-				1898A4F31E83C95700A4AFA3 /* UIView+CZInspectableView.m */,
+				1898A4F51E83CF9500A4AFA3 /* Category */,
+				1898A4F81E83CF9500A4AFA3 /* View */,
 			);
 			path = CZInspectableView;
+			sourceTree = "<group>";
+		};
+		1898A4F51E83CF9500A4AFA3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1898A4F61E83CF9500A4AFA3 /* UIView+CZInspectableView.h */,
+				1898A4F71E83CF9500A4AFA3 /* UIView+CZInspectableView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1898A4F81E83CF9500A4AFA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,7 +182,7 @@
 				1898A4E21E83C79C00A4AFA3 /* ViewController.m in Sources */,
 				1898A4DF1E83C79C00A4AFA3 /* AppDelegate.m in Sources */,
 				1898A4DC1E83C79C00A4AFA3 /* main.m in Sources */,
-				1898A4F41E83C95700A4AFA3 /* UIView+CZInspectableView.m in Sources */,
+				1898A4F91E83CF9500A4AFA3 /* UIView+CZInspectableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
