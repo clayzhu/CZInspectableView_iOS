@@ -14,6 +14,8 @@
 		1898A4E71E83C79C00A4AFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1898A4E61E83C79C00A4AFA3 /* Assets.xcassets */; };
 		1898A4EA1E83C79C00A4AFA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1898A4E81E83C79C00A4AFA3 /* LaunchScreen.storyboard */; };
 		1898A4F91E83CF9500A4AFA3 /* UIView+CZInspectableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898A4F71E83CF9500A4AFA3 /* UIView+CZInspectableView.m */; };
+		1898A5021E83D1C700A4AFA3 /* CZInspectableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898A5011E83D1C700A4AFA3 /* CZInspectableTextField.m */; };
+		1898A5051E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898A5041E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		1898A4EB1E83C79C00A4AFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1898A4F61E83CF9500A4AFA3 /* UIView+CZInspectableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZInspectableView.h"; sourceTree = "<group>"; };
 		1898A4F71E83CF9500A4AFA3 /* UIView+CZInspectableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZInspectableView.m"; sourceTree = "<group>"; };
+		1898A5001E83D1C700A4AFA3 /* CZInspectableTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZInspectableTextField.h; sourceTree = "<group>"; };
+		1898A5011E83D1C700A4AFA3 /* CZInspectableTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZInspectableTextField.m; sourceTree = "<group>"; };
+		1898A5031E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CZInspectableTextField.h"; sourceTree = "<group>"; };
+		1898A5041E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CZInspectableTextField.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,8 @@
 			children = (
 				1898A4F61E83CF9500A4AFA3 /* UIView+CZInspectableView.h */,
 				1898A4F71E83CF9500A4AFA3 /* UIView+CZInspectableView.m */,
+				1898A5031E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.h */,
+				1898A5041E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -104,6 +112,8 @@
 		1898A4F81E83CF9500A4AFA3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1898A5001E83D1C700A4AFA3 /* CZInspectableTextField.h */,
+				1898A5011E83D1C700A4AFA3 /* CZInspectableTextField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,9 +190,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1898A4E21E83C79C00A4AFA3 /* ViewController.m in Sources */,
+				1898A5051E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.m in Sources */,
 				1898A4DF1E83C79C00A4AFA3 /* AppDelegate.m in Sources */,
 				1898A4DC1E83C79C00A4AFA3 /* main.m in Sources */,
 				1898A4F91E83CF9500A4AFA3 /* UIView+CZInspectableView.m in Sources */,
+				1898A5021E83D1C700A4AFA3 /* CZInspectableTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

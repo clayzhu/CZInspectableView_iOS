@@ -34,11 +34,27 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="This is a textField." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lhy-39-O0n" customClass="CZInspectableTextField">
+                                <rect key="frame" x="112.5" y="164" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="efP-te-1iI"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.83921568629999999" green="0.1176470588" blue="0.058823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="mYc-vj-qEv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="8oB-qK-CNH"/>
+                            <constraint firstItem="lhy-39-O0n" firstAttribute="top" secondItem="mYc-vj-qEv" secondAttribute="bottom" constant="8" id="W1W-mo-2D9"/>
                             <constraint firstItem="mYc-vj-qEv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YsK-Jd-P9e"/>
+                            <constraint firstItem="lhy-39-O0n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wBC-Yn-lom"/>
                         </constraints>
                     </view>
                 </viewController>
