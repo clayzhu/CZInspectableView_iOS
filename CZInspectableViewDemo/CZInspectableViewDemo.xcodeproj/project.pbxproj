@@ -18,6 +18,7 @@
 		1898A5051E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898A5041E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.m */; };
 		1898A5081E83D59A00A4AFA3 /* UIButton+CZInspectableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898A5071E83D59A00A4AFA3 /* UIButton+CZInspectableButton.m */; };
 		1898A50B1E83D5CC00A4AFA3 /* CZInspectableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898A50A1E83D5CC00A4AFA3 /* CZInspectableButton.m */; };
+		B76459861E9D2DA00070580D /* CZInspectableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B76459851E9D2DA00070580D /* CZInspectableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		1898A5071E83D59A00A4AFA3 /* UIButton+CZInspectableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CZInspectableButton.m"; sourceTree = "<group>"; };
 		1898A5091E83D5CC00A4AFA3 /* CZInspectableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZInspectableButton.h; sourceTree = "<group>"; };
 		1898A50A1E83D5CC00A4AFA3 /* CZInspectableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZInspectableButton.m; sourceTree = "<group>"; };
+		B76459841E9D2DA00070580D /* CZInspectableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZInspectableView.h; sourceTree = "<group>"; };
+		B76459851E9D2DA00070580D /* CZInspectableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZInspectableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 		1898A4F81E83CF9500A4AFA3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B76459841E9D2DA00070580D /* CZInspectableView.h */,
+				B76459851E9D2DA00070580D /* CZInspectableView.m */,
 				1898A5001E83D1C700A4AFA3 /* CZInspectableTextField.h */,
 				1898A5011E83D1C700A4AFA3 /* CZInspectableTextField.m */,
 				1898A5091E83D5CC00A4AFA3 /* CZInspectableButton.h */,
@@ -206,6 +211,7 @@
 				1898A4DF1E83C79C00A4AFA3 /* AppDelegate.m in Sources */,
 				1898A4DC1E83C79C00A4AFA3 /* main.m in Sources */,
 				1898A4F91E83CF9500A4AFA3 /* UIView+CZInspectableView.m in Sources */,
+				B76459861E9D2DA00070580D /* CZInspectableView.m in Sources */,
 				1898A5021E83D1C700A4AFA3 /* CZInspectableTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +371,7 @@
 				1898A4F01E83C79C00A4AFA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
