@@ -26,6 +26,15 @@ IB_DESIGNABLE
 /** 边框颜色 */
 @property (strong, nonatomic) IBInspectable UIColor *borderColor;
 
+/** 阴影颜色 */
+@property (strong, nonatomic) IBInspectable UIColor *shadowColor;
+/** 阴影透明度 */
+@property (assign, nonatomic) IBInspectable CGFloat shadowOpacity;
+/** 阴影偏移 */
+@property (assign, nonatomic) IBInspectable CGSize shadowOffset;
+/** 阴影圆角 */
+@property (assign, nonatomic) IBInspectable CGFloat shadowRadius;
+
 /** 自定义属性 */
 //@property (assign, nonatomic) IBInspectable CGFloat defineValue;
 
