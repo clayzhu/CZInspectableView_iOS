@@ -2,6 +2,7 @@
 使用 IB_DESIGNABLE 和 IBInspectable 关键字，构建了一个 UIView 的 Category，使得可以在 IB 中直接操作并观察一些 Xcode 原本并不支持操作和渲染的属性。
 
 * [1. 介绍](#1-介绍)
+* [2. 安装](#2-安装)
 
 ## 1. 介绍
 
@@ -33,5 +34,5 @@ CZInspectableView_iOS 提供了3种控件部分属性的设置：
 
 ## 2. 安装
 
-下载 [CZInspectableView_iOS](/archive/master.zip)，将 `/CZInspectableViewDemo/CZInspectableView` 文件夹拖入项目中，记得在 `Destination: Copy items if needed` 前面打勾。
+下载 [CZInspectableView_iOS](https://github.com/clayzhu/CZInspectableView_iOS/archive/master.zip)，将 `/CZInspectableViewDemo/CZInspectableView` 文件夹拖入项目中，记得在 `Destination: Copy items if needed` 前面打勾。
 
