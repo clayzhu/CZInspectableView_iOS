@@ -31,3 +31,7 @@ CZInspectableView_iOS 提供了3种控件部分属性的设置：
   * 按钮 UIControlStateDisabled 时的背景颜色
   * 按钮 UIControlStateSelected 时的背景颜色
 
+## 2. 安装
+
+下载 [CZInspectableView_iOS](/archive/master.zip)，将 `/CZInspectableViewDemo/CZInspectableView` 文件夹拖入项目中，记得在 `Destination: Copy items if needed` 前面打勾。
+
