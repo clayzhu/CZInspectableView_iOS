@@ -3,7 +3,9 @@
 
 ## 1. 介绍
 
-使用 `Interface Builder` 绘制 UI 时，碰到圆角、边框之类的设置就比较头疼，IB 上不能像背景色那样有直接的属性可以设置。
+使用 `Interface Builder` 绘制 UI 时，碰到设置控件的圆角、边框之类的就比较头疼，IB 上不能像背景色那样有直接的属性可以设置。
 
 有一个解决办法是在 IB 的 `Identity Inspector` 选项卡的 `User Defined Runtime Attributes` 中通过属性的 `Key Path` 和 `Value` 设置。但这个无法在 IB 中实时显示。
+
+iOS 为我们提供了 `IB_DESIGNABLE` 和 `IBInspectable` 关键字。前者能让 `User Defined Runtime Attributes` 中的设置实时显示在 IB 上；后者允许我们自定义属性，直接在 `Attributes Inspector` 中设置（本质上是设置在 `User Defined Runtime Attributes` 中），比如圆角，原本并不能直接在 `Attributes Inspector` 选项卡中设置。
 
