@@ -9,3 +9,23 @@
 
 iOS 为我们提供了 `IB_DESIGNABLE` 和 `IBInspectable` 关键字。前者能让 `User Defined Runtime Attributes` 中的设置实时显示在 IB 上；后者允许我们自定义属性，直接在 `Attributes Inspector` 中设置（本质上是设置在 `User Defined Runtime Attributes` 中），比如圆角，原本并不能直接在 `Attributes Inspector` 选项卡中设置。
 
+CZInspectableView_iOS 提供了3种控件部分属性的设置：
+
+* UIView
+  * 圆角
+  * 边框宽度
+  * 边框颜色
+  * 阴影颜色
+  * 阴影透明度
+  * 阴影偏移
+  * 阴影圆角
+* UITextField
+  * placeholder 颜色
+  * UITextField 的边框左侧和文字左侧的距离
+  * UITextField 的边框右侧和文字右侧的距离
+* UIButton
+  * 按钮 UIControlStateNormal 时的背景颜色
+  * 按钮 UIControlStateHighlighted 时的背景颜色
+  * 按钮 UIControlStateDisabled 时的背景颜色
+  * 按钮 UIControlStateSelected 时的背景颜色
+
