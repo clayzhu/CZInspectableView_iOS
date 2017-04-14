@@ -11,12 +11,19 @@
 
 @implementation UIView (CZInspectableView)
 
+- (BOOL)masksToBounds {
+    return self.layer.masksToBounds;
+}
+
+- (void)setMasksToBounds:(BOOL)masksToBounds {
+    self.layer.masksToBounds = YES;
+}
+
 - (CGFloat)cornerRadius {
 	return self.layer.cornerRadius;
 }
 
 - (void)setCornerRadius:(CGFloat)cornerRadius {
-	self.layer.masksToBounds = YES;
 	self.layer.cornerRadius = cornerRadius;
 }
 

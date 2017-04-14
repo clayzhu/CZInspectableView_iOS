@@ -19,6 +19,8 @@ IB_DESIGNABLE
  */
 @interface UIView (CZInspectableView)
 
+/** 设置超过子图层的部分裁减掉 */
+@property (assign, nonatomic) IBInspectable BOOL masksToBounds;
 /** 圆角 */
 @property (assign, nonatomic) IBInspectable CGFloat cornerRadius;
 /** 边框宽度 */
