@@ -54,6 +54,12 @@ CZInspectableView_iOS 提供了3种控件部分属性的设置：
 然后在对应 `.m` 文件中实现这个属性的 getter 和 setter 方法：
 
 ```objc
+- (BOOL)masksToBounds {
+    return self.layer.masksToBounds;
+}
 
+- (void)setMasksToBounds:(BOOL)masksToBounds {
+    self.layer.masksToBounds = masksToBounds;
+}
 ```
 
