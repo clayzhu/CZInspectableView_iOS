@@ -40,7 +40,20 @@ CZInspectableView_iOS 提供了3种控件部分属性的设置：
 
 `/CZInspectableViewDemo/CZInspectableView` 文件夹下包含两个子文件夹：`Category`、`View`。`Category` 文件夹下的一系列 Category 文件是主要实现文件；而 `View` 文件夹下的一系列子类文件则是辅助实现文件。
 
-这是由于，只要在分类中实现带 `IBInspectable` 关键字的属性，在 IB 的 `Attributes Inspector` 中就能对相应控件操作。但要能在 IB 中实时显示
+这是由于，只要在分类中实现带 `IBInspectable` 关键字的属性，在 IB 的 `Attributes Inspector` 中就能对相应控件操作。但要能在 IB 中实时显示操作的结果，要在分类中声明 `IB_DESIGNABLE` 关键字，并在 IB 中继承相应控件的子类。
 
-比如在 `UIView+CZInspectableView.h` 中
+**举个例子🌰：**
+
+`UIView` 的 `layer.masksToBounds` 不能在 IB 中直接操作。在 `UIView+CZInspectableView.h` 中，声明了 `masksToBounds` 属性：
+
+```objc
+/** 设置超过子图层的部分裁减掉 */
+@property (assign, nonatomic) IBInspectable BOOL masksToBounds;
+```
+
+然后在对应 `.m` 文件中实现这个属性的 getter 和 setter 方法：
+
+```objc
+
+```
 
