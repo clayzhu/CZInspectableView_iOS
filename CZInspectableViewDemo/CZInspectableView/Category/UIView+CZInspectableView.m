@@ -16,7 +16,7 @@
 }
 
 - (void)setMasksToBounds:(BOOL)masksToBounds {
-    self.layer.masksToBounds = YES;
+    self.layer.masksToBounds = masksToBounds;
 }
 
 - (CGFloat)cornerRadius {
