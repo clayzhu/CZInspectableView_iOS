@@ -51,7 +51,7 @@ CZInspectableView_iOS 提供了3种控件部分属性的设置：
 @property (assign, nonatomic) IBInspectable BOOL masksToBounds;
 ```
 
-然后在对应 `.m` 文件中实现这个属性的 getter 和 setter 方法：
+然后在对应 `UIView+CZInspectableView.m` 文件中实现这个属性的 getter 和 setter 方法：
 
 ```objc
 - (BOOL)masksToBounds {
