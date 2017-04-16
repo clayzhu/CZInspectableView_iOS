@@ -44,7 +44,7 @@ CZInspectableView_iOS 提供了3种控件部分属性的设置：
 
 **举个例子🌰：**
 
-`UIView` 的 `layer.masksToBounds` 不能在 IB 中直接操作。在 `UIView+CZInspectableView.h` 中，声明了 `masksToBounds` 属性：
+`UIView` 的 `layer.masksToBounds` 不能在 IB 中直接操作。要实现在 IB 中操作，并实时显示的功能，需要在 `UIView+CZInspectableView.h` 中，声明 `masksToBounds` 属性（属性名称随意，易懂即可）：
 
 ```objc
 /** 设置超过子图层的部分裁减掉 */
