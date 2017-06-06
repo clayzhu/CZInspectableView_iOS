@@ -37,7 +37,7 @@ IB_DESIGNABLE
 /** 阴影圆角 */
 @property (assign, nonatomic) IBInspectable CGFloat shadowRadius;
 
-/** 自定义属性 */
+///** 自定义属性 */
 //@property (assign, nonatomic) IBInspectable CGFloat defineValue;
 
 @end
