@@ -92,3 +92,13 @@ CZInspectableView_iOS 提供了3种控件部分属性的设置：
 
 把 `CZInspectableView` 中的 Category 导入后，不需要做任何操作，即可在 IB 的 `Attributes Inspector` 中直接设置相应的属性。
 
+**以 `UITextField` 为例**
+
+![IB 中直接设置属性](http://ompmj0bxx.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-06-10%2022.41.22.png)
+
+从图中可以看出，`Attributes Inspector` 中除了可以设置 `UITextField+CZInspectableTextField` 中添加的设置 placeholder 的颜色等属性外，还能设置 `UITextField` 父类 `UIView` 的 Category 中添加的属性。
+
+由于 Category 中添加了 `IB_DESIGNABLE` 关键字，如果在 IB 的 `Identity Inspector` 中的 `Class` 中继承任意一个 `UITextField` 子类，即可在 IB 中看到设置的实时渲染效果。比如图中设置的 placeholder 颜色。
+
+**PS：**每次打开 IB，都会自动进行实时渲染的编译，这会影响 Xcode 的速度，有时候还会出现渲染失败的错误提醒。如果不需要自动渲染，只需要在 Xcode 的菜单 `Editor` 中，关闭 `Automatically Refresh Views`。当需要手动刷新渲染时，选择 `Refresh All Views`。
+
