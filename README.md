@@ -3,6 +3,10 @@
 
 * [1. 介绍](#1-介绍)
 * [2. 安装](#2-安装)
+* [3. 说明](#3-说明)
+  * [3.1 添加控件系统属性](#31-添加控件系统属性)
+  * [3.2 添加控件自定义属性](#32-添加控件自定义属性)
+* [4. 示例](#4-示例)
 
 ## 1. 介绍
 
@@ -42,6 +46,8 @@ CZInspectableView_iOS 提供了3种控件部分属性的设置：
 
 这是由于，只要在分类中实现带 `IBInspectable` 关键字的属性，在 IB 的 `Attributes Inspector` 中就能对相应控件操作。但要能在 IB 中实时显示操作的结果，要在分类中声明 `IB_DESIGNABLE` 关键字，并在 IB 中继承相应控件的子类。所以，如果要在 IB 中看下实时的效果，可以简单地继承下 `View` 文件夹下相应的类。
 
+### 3.1 添加控件系统属性
+
 **举个🌰：**
 
 `UIView` 的 `layer.masksToBounds` 不能在 IB 中直接操作。要实现在 IB 中操作，并实时显示的功能，需要在 `UIView+CZInspectableView.h` 中，声明 `masksToBounds` 属性（属性名称随意，易懂即可）：
@@ -62,6 +68,8 @@ CZInspectableView_iOS 提供了3种控件部分属性的设置：
     self.layer.masksToBounds = masksToBounds;
 }
 ```
+
+### 3.2 添加控件自定义属性
 
 **更有价值的是**，通过 runtime，我们还能自定义所需要的属性，从而实现在 IB 中操作它们。
 
