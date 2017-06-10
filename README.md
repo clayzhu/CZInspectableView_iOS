@@ -74,7 +74,7 @@ CZInspectableView_iOS 提供了3种控件部分属性的设置：
 @property (assign, nonatomic) IBInspectable CGFloat defineValue;
 ```
 
-在 `.m` 中使用 runtime 实现属性值的存取：
+在 `.m` 中使用 runtime 实现属性值的存取（需要导入 runtime 库）：
 
 ```objc
 - (CGFloat)defineValue {
@@ -85,4 +85,10 @@ CZInspectableView_iOS 提供了3种控件部分属性的设置：
 	objc_setAssociatedObject(self, @selector(defineValue), @(defineValue), OBJC_ASSOCIATION_ASSIGN);
 }
 ```
+
+同理，`UITextField` 和 `UIButton` 也使用 Category 实现部分在 IB 中不方便设置的属性。
+
+## 4. 示例
+
+把 `CZInspectableView` 中的 Category 导入后，不需要做任何操作，即可在 IB 的 `Attributes Inspector` 中直接设置相应的属性。
 
