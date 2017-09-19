@@ -3,6 +3,8 @@
 
 * [1. 介绍](#1-介绍)
 * [2. 安装](#2-安装)
+  * [2.1 使用 CocoaPods](#21-使用-cocoapods)
+  * [2.2 手动导入](#22-手动导入)
 * [3. 说明](#3-说明)
   * [3.1 添加控件系统属性](#31-添加控件系统属性)
   * [3.2 添加控件自定义属性](#32-添加控件自定义属性)
@@ -37,6 +39,14 @@ CZInspectableView_iOS 提供了3种控件部分属性的设置：
   * 按钮 UIControlStateSelected 时的背景颜色
 
 ## 2. 安装
+
+### 2.1 使用 CocoaPods
+
+```
+pod 'CZInspectableView'
+```
+
+### 2.2 手动导入
 
 下载 [CZInspectableView_iOS](https://github.com/clayzhu/CZInspectableView_iOS/archive/master.zip)，将 `/CZInspectableViewDemo/CZInspectableView` 文件夹拖入项目中，记得在 `Destination: Copy items if needed` 前面打勾。
 
