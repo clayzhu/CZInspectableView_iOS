@@ -48,11 +48,11 @@ pod 'CZInspectableView'
 
 ### 2.2 手动导入
 
-下载 [CZInspectableView_iOS](https://github.com/clayzhu/CZInspectableView_iOS/archive/master.zip)，将 `/CZInspectableViewDemo/CZInspectableView` 文件夹拖入项目中，记得在 `Destination: Copy items if needed` 前面打勾。
+下载 [CZInspectableView_iOS](https://github.com/clayzhu/CZInspectableView_iOS/archive/master.zip)，将 `/CZInspectableView` 文件夹拖入项目中，记得在 `Destination: Copy items if needed` 前面打勾。
 
 ## 3. 说明
 
-`/CZInspectableViewDemo/CZInspectableView` 文件夹下包含两个子文件夹：`Category`、`View`。`Category` 文件夹下的一系列 Category 文件是主要实现文件；而 `View` 文件夹下的一系列子类文件则是辅助实现文件。
+`/CZInspectableView` 文件夹下包含两个子文件夹：`Category`、`View`。`Category` 文件夹下的一系列 Category 文件是主要实现文件；而 `View` 文件夹下的一系列子类文件则是辅助实现文件。
 
 这是由于，只要在分类中实现带 `IBInspectable` 关键字的属性，在 IB 的 `Attributes Inspector` 中就能对相应控件操作。但要能在 IB 中实时显示操作的结果，要在分类中声明 `IB_DESIGNABLE` 关键字，并在 IB 中继承相应控件的子类。所以，如果要在 IB 中看下实时的效果，可以简单地继承下 `View` 文件夹下相应的类。
 
