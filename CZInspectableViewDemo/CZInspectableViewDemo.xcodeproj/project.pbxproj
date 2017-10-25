@@ -13,12 +13,12 @@
 		1898A4E51E83C79C00A4AFA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1898A4E31E83C79C00A4AFA3 /* Main.storyboard */; };
 		1898A4E71E83C79C00A4AFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1898A4E61E83C79C00A4AFA3 /* Assets.xcassets */; };
 		1898A4EA1E83C79C00A4AFA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1898A4E81E83C79C00A4AFA3 /* LaunchScreen.storyboard */; };
-		1898A4F91E83CF9500A4AFA3 /* UIView+CZInspectableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898A4F71E83CF9500A4AFA3 /* UIView+CZInspectableView.m */; };
-		1898A5021E83D1C700A4AFA3 /* CZInspectableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898A5011E83D1C700A4AFA3 /* CZInspectableTextField.m */; };
-		1898A5051E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898A5041E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.m */; };
-		1898A5081E83D59A00A4AFA3 /* UIButton+CZInspectableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898A5071E83D59A00A4AFA3 /* UIButton+CZInspectableButton.m */; };
-		1898A50B1E83D5CC00A4AFA3 /* CZInspectableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898A50A1E83D5CC00A4AFA3 /* CZInspectableButton.m */; };
-		B76459861E9D2DA00070580D /* CZInspectableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B76459851E9D2DA00070580D /* CZInspectableView.m */; };
+		E61F73AA1FA039ED00D96A7E /* UIButton+CZInspectableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E61F739E1FA039ED00D96A7E /* UIButton+CZInspectableButton.m */; };
+		E61F73AB1FA039ED00D96A7E /* UITextField+CZInspectableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E61F73A01FA039ED00D96A7E /* UITextField+CZInspectableTextField.m */; };
+		E61F73AC1FA039ED00D96A7E /* UIView+CZInspectableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E61F73A21FA039ED00D96A7E /* UIView+CZInspectableView.m */; };
+		E61F73AD1FA039ED00D96A7E /* CZInspectableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E61F73A51FA039ED00D96A7E /* CZInspectableButton.m */; };
+		E61F73AE1FA039ED00D96A7E /* CZInspectableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E61F73A71FA039ED00D96A7E /* CZInspectableTextField.m */; };
+		E61F73AF1FA039ED00D96A7E /* CZInspectableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E61F73A91FA039ED00D96A7E /* CZInspectableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,18 +32,18 @@
 		1898A4E61E83C79C00A4AFA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1898A4E91E83C79C00A4AFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1898A4EB1E83C79C00A4AFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1898A4F61E83CF9500A4AFA3 /* UIView+CZInspectableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZInspectableView.h"; sourceTree = "<group>"; };
-		1898A4F71E83CF9500A4AFA3 /* UIView+CZInspectableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZInspectableView.m"; sourceTree = "<group>"; };
-		1898A5001E83D1C700A4AFA3 /* CZInspectableTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZInspectableTextField.h; sourceTree = "<group>"; };
-		1898A5011E83D1C700A4AFA3 /* CZInspectableTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZInspectableTextField.m; sourceTree = "<group>"; };
-		1898A5031E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CZInspectableTextField.h"; sourceTree = "<group>"; };
-		1898A5041E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CZInspectableTextField.m"; sourceTree = "<group>"; };
-		1898A5061E83D59A00A4AFA3 /* UIButton+CZInspectableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CZInspectableButton.h"; sourceTree = "<group>"; };
-		1898A5071E83D59A00A4AFA3 /* UIButton+CZInspectableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CZInspectableButton.m"; sourceTree = "<group>"; };
-		1898A5091E83D5CC00A4AFA3 /* CZInspectableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZInspectableButton.h; sourceTree = "<group>"; };
-		1898A50A1E83D5CC00A4AFA3 /* CZInspectableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZInspectableButton.m; sourceTree = "<group>"; };
-		B76459841E9D2DA00070580D /* CZInspectableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZInspectableView.h; sourceTree = "<group>"; };
-		B76459851E9D2DA00070580D /* CZInspectableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZInspectableView.m; sourceTree = "<group>"; };
+		E61F739D1FA039ED00D96A7E /* UIButton+CZInspectableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CZInspectableButton.h"; sourceTree = "<group>"; };
+		E61F739E1FA039ED00D96A7E /* UIButton+CZInspectableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CZInspectableButton.m"; sourceTree = "<group>"; };
+		E61F739F1FA039ED00D96A7E /* UITextField+CZInspectableTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CZInspectableTextField.h"; sourceTree = "<group>"; };
+		E61F73A01FA039ED00D96A7E /* UITextField+CZInspectableTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CZInspectableTextField.m"; sourceTree = "<group>"; };
+		E61F73A11FA039ED00D96A7E /* UIView+CZInspectableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZInspectableView.h"; sourceTree = "<group>"; };
+		E61F73A21FA039ED00D96A7E /* UIView+CZInspectableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZInspectableView.m"; sourceTree = "<group>"; };
+		E61F73A41FA039ED00D96A7E /* CZInspectableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZInspectableButton.h; sourceTree = "<group>"; };
+		E61F73A51FA039ED00D96A7E /* CZInspectableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZInspectableButton.m; sourceTree = "<group>"; };
+		E61F73A61FA039ED00D96A7E /* CZInspectableTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZInspectableTextField.h; sourceTree = "<group>"; };
+		E61F73A71FA039ED00D96A7E /* CZInspectableTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZInspectableTextField.m; sourceTree = "<group>"; };
+		E61F73A81FA039ED00D96A7E /* CZInspectableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZInspectableView.h; sourceTree = "<group>"; };
+		E61F73A91FA039ED00D96A7E /* CZInspectableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZInspectableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				1898A4D91E83C79C00A4AFA3 /* CZInspectableViewDemo */,
-				1898A4F11E83C93500A4AFA3 /* CZInspectableView */,
+				E61F739B1FA039ED00D96A7E /* CZInspectableView */,
 				1898A4D81E83C79C00A4AFA3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,37 +98,38 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1898A4F11E83C93500A4AFA3 /* CZInspectableView */ = {
+		E61F739B1FA039ED00D96A7E /* CZInspectableView */ = {
 			isa = PBXGroup;
 			children = (
-				1898A4F51E83CF9500A4AFA3 /* Category */,
-				1898A4F81E83CF9500A4AFA3 /* View */,
+				E61F739C1FA039ED00D96A7E /* Category */,
+				E61F73A31FA039ED00D96A7E /* View */,
 			);
-			path = CZInspectableView;
+			name = CZInspectableView;
+			path = ../CZInspectableView;
 			sourceTree = "<group>";
 		};
-		1898A4F51E83CF9500A4AFA3 /* Category */ = {
+		E61F739C1FA039ED00D96A7E /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				1898A4F61E83CF9500A4AFA3 /* UIView+CZInspectableView.h */,
-				1898A4F71E83CF9500A4AFA3 /* UIView+CZInspectableView.m */,
-				1898A5031E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.h */,
-				1898A5041E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.m */,
-				1898A5061E83D59A00A4AFA3 /* UIButton+CZInspectableButton.h */,
-				1898A5071E83D59A00A4AFA3 /* UIButton+CZInspectableButton.m */,
+				E61F739D1FA039ED00D96A7E /* UIButton+CZInspectableButton.h */,
+				E61F739E1FA039ED00D96A7E /* UIButton+CZInspectableButton.m */,
+				E61F739F1FA039ED00D96A7E /* UITextField+CZInspectableTextField.h */,
+				E61F73A01FA039ED00D96A7E /* UITextField+CZInspectableTextField.m */,
+				E61F73A11FA039ED00D96A7E /* UIView+CZInspectableView.h */,
+				E61F73A21FA039ED00D96A7E /* UIView+CZInspectableView.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		1898A4F81E83CF9500A4AFA3 /* View */ = {
+		E61F73A31FA039ED00D96A7E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B76459841E9D2DA00070580D /* CZInspectableView.h */,
-				B76459851E9D2DA00070580D /* CZInspectableView.m */,
-				1898A5001E83D1C700A4AFA3 /* CZInspectableTextField.h */,
-				1898A5011E83D1C700A4AFA3 /* CZInspectableTextField.m */,
-				1898A5091E83D5CC00A4AFA3 /* CZInspectableButton.h */,
-				1898A50A1E83D5CC00A4AFA3 /* CZInspectableButton.m */,
+				E61F73A41FA039ED00D96A7E /* CZInspectableButton.h */,
+				E61F73A51FA039ED00D96A7E /* CZInspectableButton.m */,
+				E61F73A61FA039ED00D96A7E /* CZInspectableTextField.h */,
+				E61F73A71FA039ED00D96A7E /* CZInspectableTextField.m */,
+				E61F73A81FA039ED00D96A7E /* CZInspectableView.h */,
+				E61F73A91FA039ED00D96A7E /* CZInspectableView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -205,14 +206,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1898A4E21E83C79C00A4AFA3 /* ViewController.m in Sources */,
-				1898A5081E83D59A00A4AFA3 /* UIButton+CZInspectableButton.m in Sources */,
-				1898A5051E83D2A800A4AFA3 /* UITextField+CZInspectableTextField.m in Sources */,
-				1898A50B1E83D5CC00A4AFA3 /* CZInspectableButton.m in Sources */,
+				E61F73AB1FA039ED00D96A7E /* UITextField+CZInspectableTextField.m in Sources */,
+				E61F73AA1FA039ED00D96A7E /* UIButton+CZInspectableButton.m in Sources */,
+				E61F73AE1FA039ED00D96A7E /* CZInspectableTextField.m in Sources */,
+				E61F73AD1FA039ED00D96A7E /* CZInspectableButton.m in Sources */,
 				1898A4DF1E83C79C00A4AFA3 /* AppDelegate.m in Sources */,
 				1898A4DC1E83C79C00A4AFA3 /* main.m in Sources */,
-				1898A4F91E83CF9500A4AFA3 /* UIView+CZInspectableView.m in Sources */,
-				B76459861E9D2DA00070580D /* CZInspectableView.m in Sources */,
-				1898A5021E83D1C700A4AFA3 /* CZInspectableTextField.m in Sources */,
+				E61F73AF1FA039ED00D96A7E /* CZInspectableView.m in Sources */,
+				E61F73AC1FA039ED00D96A7E /* UIView+CZInspectableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
