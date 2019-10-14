@@ -7,15 +7,20 @@
 //
 
 #import "UITextField+CZInspectableTextField.h"
+#import <objc/runtime.h>
 
 @implementation UITextField (CZInspectableTextField)
 
 - (UIColor *)placeholderColor {
-	return [self valueForKeyPath:@"_placeholderLabel.textColor"];
+    Ivar ivar =  class_getInstanceVariable([UITextField class], "_placeholderLabel");
+    UILabel *placeholderLabel = object_getIvar(self, ivar);
+    return placeholderLabel.textColor;
 }
 
 - (void)setPlaceholderColor:(UIColor *)placeholderColor {
-	[self setValue:placeholderColor forKeyPath:@"_placeholderLabel.textColor"];
+    Ivar ivar =  class_getInstanceVariable([UITextField class], "_placeholderLabel");
+    UILabel *placeholderLabel = object_getIvar(self, ivar);
+    placeholderLabel.textColor = placeholderColor;
 }
 
 - (CGFloat)leadingSpacing {
